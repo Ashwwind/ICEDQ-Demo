@@ -3,26 +3,28 @@ package automationTask;
 public class StaticArray {
 
 	public static void main(String args[]) {
-		
-		// Initiolize and declare the static array and the array size is 5.
-		
+
+		// Initialize and declare the static array and the array size is 5.
+
 		int arr[] = { 5, 7, 6, 4, 3 };
-		//System.out.println(arr[]);
-		int result = 0;
+
+		int sum = 0;
 		int avg = 0;
 		int large = arr[0];
 		int small = arr[0];
 
 		for (int i = 0; i < arr.length; i++) {
 
-			result = result + arr[i];
+			sum = sum + arr[i];
 		}
 
-		System.out.println(result);
+		System.out.println("Array element : " + arr[0] + "," + arr[1] + "," + arr[2] + "," + arr[3] + "," + arr[4]);
 
-		avg = result / 5;
+		System.out.println("Calculate the total sum of the given array : " + sum);
 
-		System.out.println(avg);
+		avg = sum / 5;
+
+		System.out.println("Calculate the average of the given array :" + avg);
 
 		// Print the largest and smallest value form the given array.
 
@@ -33,8 +35,8 @@ public class StaticArray {
 				small = arr[i];
 			}
 		}
-		System.out.println(large);
-		System.out.println(small);
+		System.out.println("The largest element of array : " + large);
+		System.out.println("The smallest element of array : " + small);
 
 	}
 
