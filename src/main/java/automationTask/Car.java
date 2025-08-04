@@ -2,22 +2,28 @@ package automationTask;
 
 public class Car {
 
-	// Declare car properties
+	
+	// Car class properties
 	String brand;
 	String model;
 	String year;
-
-	// Declare car method
-	public void displayInfo(String Brand, String Model, String Year) {
-		System.out.println("Car Brand is: " + Brand);
-		System.out.println("Car Model is: " + Model);
-		System.out.println("Car Year is: " + Year);
+	
+	// Car class behavior
+	public void displayInfo(String brand, String model, String year)
+	{
+		System.out.println(brand + " "+ model + " "+year);
 	}
 
 	public static void main(String[] args) {
+		
+		Car obj1 = new Car();
+		obj1.displayInfo("Toyota","Corolla","2010");
 
-		Car obj = new Car();
-		obj.displayInfo("Maruti Suzuki", "Swift", "2013");
+		Car obj2 = new Car();
+		obj2.displayInfo("BMW","X5","2013");
+		
+		Car obj3 = new Car();
+		obj3.displayInfo("Ford","Mustang","2015");
 
 	}
 
