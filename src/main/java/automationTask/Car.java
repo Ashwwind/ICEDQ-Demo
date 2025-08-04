@@ -1,6 +1,7 @@
 package automationTask;
 
 public class Car {
+
 	
 	// Car class properties
 	String brand;
@@ -23,6 +24,7 @@ public class Car {
 		
 		Car obj3 = new Car();
 		obj3.displayInfo("Ford","Mustang","2015");
+
 	}
 
 }
