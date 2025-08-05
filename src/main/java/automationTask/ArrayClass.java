@@ -4,6 +4,8 @@ public class ArrayClass {
 
 	public static void main(String[] args) {
 
+		// Create a static array of 5 element.
+
 		int arr[] = new int[5];
 
 		// int arr1[] = {1,2,3,5,7};
@@ -22,24 +24,24 @@ public class ArrayClass {
 		for (int i = 0; i < arr.length; i++) {
 			sum = sum + arr[i];
 		}
-		System.out.println(sum);
+		System.out.println("Total array sum is : " + sum);
 
 		avg = sum / 5;
-		System.out.println(avg);
+		System.out.println("Average of the array is : " + avg);
+
+		// Print the largest and smallest number in the array.
 
 		for (int i = 0; i < arr.length; i++) {
-			//System.out.println(arr[i]);
+
 			if (arr[i] > large) {
 				large = arr[i];
-			}
-			else
-			{
+			} else {
 				small = arr[i];
 			}
-			
+
 		}
-		System.out.println(large);
-		System.out.println(small);
+		System.out.println("The largest element or number in the array is : " + large);
+		System.out.println("The largest smallest or number in the array is : " + small);
 
 	}
 
