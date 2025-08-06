@@ -9,7 +9,9 @@ public class PrintOneToTen {
 		int number = 1;
 
 		for (int i = 1; i <= 10; i++) {
-			System.out.print(i+ " ");
+
+			System.out.print(i+( i==10?"":", "));
+
 		}
 
 		// for (int j : number > 0)
@@ -21,7 +23,9 @@ public class PrintOneToTen {
 		while (number <= 10)
 
 		{
-			System.out.print(number+ " ");
+
+			System.out.print(number+ ( number==10?"":", "));
+
 			number++;
 		}
 
