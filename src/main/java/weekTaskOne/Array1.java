@@ -6,6 +6,7 @@ public class Array1 {
 		// Declar 2D array using 3*3 element
 
 		// int arr [][] = new int[3][3];
+		System.out.println("Declare a 2D array for a 3x3 matrix");
 		int arr[][] = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 0; j < arr.length; j++) {
@@ -15,6 +16,9 @@ public class Array1 {
 		}
 
 		System.out.println("*************************");
+
+		// Add two matrices.
+		System.out.println("Add two matrices.");
 
 		int arr1[][] = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
 		int arr2[][] = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
@@ -28,10 +32,11 @@ public class Array1 {
 			System.out.println(" ");
 		}
 
-		System.out.println("************");
+		System.out.println("*************************");
 
-		// transpose
+		// Print the transpose of a matrix.
 
+		System.out.println("Transpose of a matrix.");
 		for (int i = 0; i < arr.length; i++) {
 
 			for (int j = 0; j < arr.length; j++) {

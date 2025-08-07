@@ -10,7 +10,7 @@ public class PrintOneToTen {
 
 		for (int i = 1; i <= 10; i++) {
 
-			System.out.print(i+( i==10?"":", "));
+			System.out.print(i + (i == 10 ? "" : ", "));
 
 		}
 
@@ -23,13 +23,12 @@ public class PrintOneToTen {
 		while (number <= 10)
 
 		{
-
-			System.out.print(number+ ( number==10?"":", "));
+			System.out.print(number + (number == 10 ? "" : ", "));
 
 			number++;
 		}
 
-		//frroom work
+		// frroom work
 	}
-	
+
 }
